@@ -1,0 +1,22 @@
+/* Força = 100 ID selector */
+#my-title {
+    color: blueviolet;
+}
+
+
+/* Força = 10 Classes e attribute selectors */
+.title {
+    color: red  /* !important NÃO USAR!*/;
+}
+
+
+/* Força = 1 Elemento type selector e pseudo-elements */
+h1, p {
+    color: blue;
+}
+
+
+/* Força = 0 - Universal selector */
+* {
+    color:aqua;
+}
